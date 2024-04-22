@@ -5,6 +5,7 @@ const resources = {
   
   En: {
     translation: {
+      "Not connected": "Not connected",
       "Products":"Products",
       "Buy Crypto":"Buy Crypto",
       "Markets":"Markets",

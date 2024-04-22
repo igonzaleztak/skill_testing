@@ -3,6 +3,7 @@ import {useState} from 'react';
 import {AiOutlineQrcode,AiTwotoneContainer,AiOutlineKey,AiOutlineUser} from 'react-icons/ai';
 import WalletResetPasswordModal from "../component/WalletResetPasswordModal";
 import { useTranslation } from 'react-i18next';
+import Web3Wallet from '../component/Web3Wallet';
     
 function WalletProfile() {
   const [t,i18n] = useTranslation();
@@ -28,6 +29,9 @@ function WalletProfile() {
         </Col>
       </Row>
 
+      <Row>
+        <Web3Wallet></Web3Wallet>
+      </Row>
 
       {
         showModal?
